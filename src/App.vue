@@ -1,17 +1,21 @@
 <template>
   <div id="app">
+    <div>
+      <router-link to = "/">Home</router-link> |
+      <router-link to = "/info">Info</router-link>
+    </div>
+   
+    <router-view/> <!-- обертка для переключения между страницами  -->
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <InfoPage msg="Personal Card"/>
+    <!-- <InfoPage msg="Personal Card"/> -->
   </div>
 </template>
 
 <script>
-import InfoPage from './pages/InfoPage.vue'
 
 export default {
   name: 'App',
   components: {
-    InfoPage
   }
 }
 </script>
