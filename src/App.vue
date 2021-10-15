@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <HelloWorld msg="Personal Card"/>
+    <InfoPage msg="Personal Card"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import InfoPage from './pages/InfoPage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    InfoPage
   }
 }
 </script>
@@ -28,7 +28,7 @@ export default {
 }
 .box1 {
   margin-left: auto;
-  font-family: Poppins;
+  font-family: Inconsolata;
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
