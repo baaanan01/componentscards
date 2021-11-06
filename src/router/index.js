@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter) /*регистрируем библиотеку */
 
+
+
 const routes = [
     {
           path: '/',
@@ -19,7 +21,16 @@ const routes = [
         title: 'Info'
       },
       component: () => import('@/pages/InfoPage.vue')
-    }
+    },
+    {
+      path: "*",
+      name: 'Error', 
+      meta: {
+        title: 'error'
+      },
+      component: () => import('@/pages/404.vue')
+    },
+    
   ]
   
   const router = new VueRouter({
@@ -29,3 +40,4 @@ const routes = [
   })
   
   export default router
+
