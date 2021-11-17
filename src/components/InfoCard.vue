@@ -14,8 +14,8 @@ export default {
 .img {
   margin-top: 10px;
   width: 150px;
-  height: 150px; /* Ширина и высота */
-  border-radius: 50%; /* Превращаем в круг */
+  height: 150px;
+  border-radius: 50%;
   background-size: auto 150px; /* Высота фотографии равна высоте элемента */
 }
 
