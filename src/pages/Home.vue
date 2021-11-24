@@ -8,11 +8,8 @@
 <script>
 export default {
   name: "Hello"
-
 };
 </script>
 <style>
-.hh{
-  text-align: center;
-}
+
 </style>
